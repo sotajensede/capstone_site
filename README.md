@@ -1,2 +1,2 @@
 # school_personal
-Not-group class assignments.
+Non-group class assignments.
