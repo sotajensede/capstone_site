@@ -1,2 +1,2 @@
-# school_personal
-Non-group class assignments.
+# capstone_site
+Porfolio for capstone.
