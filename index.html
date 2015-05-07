@@ -8,40 +8,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Jesse Deaton</title>
-    <script src="js/physicsjs/physicsjs-full.js"></script>
     <link rel=stylesheet href="css/main.css" type="text/css">
+    <link rel="shortcut icon" href="img/fav.ico" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.githubwidget.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#github-widget').githubwidget({
+                user: 'theoka',
+                count: 3,
+                sortby: 'pushed_at'
+            })
+        });
+    </script>
 </head>
 <body>
     <div class="nav">
         <h2 class="nav-title">Jesse Deaton | <span class="text-highlight">Portfolio: Spring, 2015</span></h2>
         <a class="nav-link" href="http://www.github.com/theoka">Github</a>
-        <a class="nav-link" href="resume.html">Resum&eacute;</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="resume_jdeaton.pdf">Resum&eacute;</a>
+        <a class="nav-link" href="https://www.linkedin.com/pub/jesse-deaton/40/13/772">LinkedIn</a>
     </div>
     <div class="main-upper">
         <img src="img/jdeaton.jpg" id="profile-img" alt="Jesse Deaton"></img>
         <p id="main-text">
-        <!--<?php echo file_get_contents('txt/about.txt'); ?>-->
         I am a student finishing an associate's degree in software development as of 
         Spring, 2015. I intend to carry on studies in computer science afterwards 
-        in order to pursue a career that consists of close involvement in the open-source 
+        in order to pursue a career that consists of close involvement with the open-source 
         community and Linux development. 
         </p>
     </div>
-    <script src="js/main-lower.js"></script>
+    <div class="main-lower">
+        <p id="contact-text">
+        <a href="tel:12762209907">Phone</a>
+        <br>&nbsp;1-276-220-9907
+        <br>
+        <a href="mailto:jcd2152@email.vccs.edu">VCCS</a>
+        <br>&nbsp;jcd2152@email.vccs.edu
+        <br>
+        <a href="mailto:usingalovelytune@gmail.com">Personal</a>
+        <br>&nbsp;usingalovelytune@gmail.com
+        </p>
+    </div>
     <!--
-    <div class="main-lower">
-    </div>
-    <div class="main-lower">
-        <div class="triangle-down"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-up"></div>
-        <div class="triangle-down"></div>
-        <div class="triangle-up"></div>
-    </div>
+    <div class="github" id="github-widget"><p id="contact-text">Github</p></div>
     -->
-</body>
+    </body>
 </html>
